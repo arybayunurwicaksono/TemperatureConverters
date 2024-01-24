@@ -16,7 +16,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //Variable
         var et1 = findViewById<EditText>(R.id.input1)
         var et2: EditText = findViewById(R.id.input2)
         var spinner1: Spinner = findViewById(R.id.spinner1)
