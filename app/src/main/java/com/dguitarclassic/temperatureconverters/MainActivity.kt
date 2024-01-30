@@ -39,8 +39,6 @@ class MainActivity : AppCompatActivity() {
             spinner1.adapter = adapter
         }
 
-
-        //Convertion Function
         fun ConvertionFromInput1(spinner1Stat: String, value: Float): Float {
             if (spinner1Stat.equals("Reamur to Celcius", true)){
                 resultVal1 = convert.ReamurToCelcius(value)
