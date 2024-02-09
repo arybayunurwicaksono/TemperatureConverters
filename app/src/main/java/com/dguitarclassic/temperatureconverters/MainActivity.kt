@@ -61,7 +61,7 @@ class MainActivity : AppCompatActivity() {
             }
             return 0f
         }
-
+        //Listener Text Changed
         et1.addTextChangedListener(object : TextWatcher {
             override fun afterTextChanged(p0: Editable?) {
 
